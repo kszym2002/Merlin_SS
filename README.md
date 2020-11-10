@@ -102,7 +102,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 
 #### 相关链接：
 
-* fancyss_hnd离线包：[https://github.com/hq450/fancyss_history_package/tree/master/fancyss_hnd](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_hnd)
+* fancyss_hnd离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/hnd/SS-trojan-vless-1.9.6.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/SS-trojan-vless-1.9.6.tar.gz)
 
 
 ----------------
@@ -123,7 +123,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 
 #### 相关链接：
 
-* arm384机型的科学上网离线包：[https://github.com/hq450/fancyss_history_package/tree/master/fancyss_arm384](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_arm384)
+* arm384机型的科学上网离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/arm384/SS-trojan-vless-1.1.0.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/SS-trojan-vless-1.1.0.tar.gz)
 
 ----
 
@@ -152,5 +152,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 
 #### 相关链接：
 
-* fancyss_arm离线包：[https://github.com/hq450/fancyss_history_package/tree/master/fancyss_hnd](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_hnd)
+* fancyss_arm离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks.tar.gz)
 
