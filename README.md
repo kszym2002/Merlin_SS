@@ -152,5 +152,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 
 #### 相关链接：
 
-* fancyss_arm离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks.tar.gz)
+* fancyss_arm离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks_4.3.7.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks_4.3.7.tar.gz)
 
