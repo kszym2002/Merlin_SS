@@ -103,7 +103,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 #### 相关链接：
 
 * fancyss_hnd离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/hnd/SS-trojan-vless-1.9.6.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/SS-trojan-vless-1.9.6.tar.gz)
-* clash：[离线包](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/merlinclash_hnd_1106.tar.gz) ，[补丁](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/patch-1106-002.tar.gz)，[内核](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/clashvless-v8)
+* clash：[离线包](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/merlinclash_hnd_1106.tar.gz) ，[补丁002](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/patch-1106-002.tar.gz)，[补丁003](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/patch-1106-003.tar.gz)，[内核](https://github.com/kszym2002/Merlin_SS/raw/main/hnd/clashvless-v8)
 
 ----------------
 
@@ -124,8 +124,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 #### 相关链接：
 
 * arm384机型的科学上网离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/arm384/SS-trojan-vless-1.1.0.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/SS-trojan-vless-1.1.0.tar.gz)
-* clash：[离线包](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/merlinclash_384_1106.tar.gz) ，[补丁](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/patch-1106384-002.tar.gz)，[内核](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/clashvless-v5)
-
+* clash：[离线包](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/merlinclash_384_1106.tar.gz) ，[补丁002](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/patch-1106384-002.tar.gz)，[补丁003](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/patch-1106384-003.tar.gz)，[内核](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/clashvless-v5)
 
 ----
 
@@ -155,4 +154,4 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 #### 相关链接：
 
 * fancyss_arm离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks_4.3.7.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/arm/shadowsocks_4.3.7.tar.gz)
-* clash：[离线包](https://github.com/kszym2002/Merlin_SS/raw/main/arm/merlinclash_380_1106.tar.gz) ，[补丁](https://github.com/kszym2002/Merlin_SS/raw/main/arm/patch-1106380-002.tar.gz)，[内核](https://github.com/kszym2002/Merlin_SS/raw/main/arm/clashvless-v5)
+* clash：[离线包](https://github.com/kszym2002/Merlin_SS/raw/main/arm/merlinclash_380_1106.tar.gz) ，[补丁002](https://github.com/kszym2002/Merlin_SS/raw/main/arm/patch-1106380-002.tar.gz)，[补丁003](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/patch-1106380-003.tar.gz)，[内核](https://github.com/kszym2002/Merlin_SS/raw/main/arm/clashvless-v5)
