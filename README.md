@@ -123,7 +123,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/mast
 
 #### 相关链接：
 
-* arm384机型的科学上网离线包：[https://github.com/kszym2002/Merlin_SS/raw/main/arm384/SS-trojan-vless-1.1.0.tar.gz](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/SS-trojan-vless-1.1.0.tar.gz)
+* arm384机型的科学上网离线包：[https://github.com/kszym2002/Merlin_SS/blob/main/arm384/shadowsocks.tar.gz](https://github.com/kszym2002/Merlin_SS/blob/main/arm384/shadowsocks.tar.gz)
 * clash：[离线包](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/merlinclash_384_1106.tar.gz) ，[补丁002](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/patch-1106384-002.tar.gz)，[补丁003](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/patch-1106384-003.tar.gz)，[内核](https://github.com/kszym2002/Merlin_SS/raw/main/arm384/clashvless-v5)
 
 ----
