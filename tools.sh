@@ -144,7 +144,7 @@ DefaultLimitNOFILE=65535
 DefaultLimitNPROC=65535
 EOF
 
-systemd --daemon-reload
+systemctl daemon-reload
 
 }
 
