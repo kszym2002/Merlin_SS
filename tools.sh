@@ -41,24 +41,30 @@ sed -i '/net.ipv4.udp_wmem_min/d' /etc/sysctl.conf
 sed -i '/net.core.default_qdisc/d' /etc/sysctl.conf
 sed -i '/net.ipv4.tcp_congestion_control/d' /etc/sysctl.conf
 cat >> /etc/sysctl.conf << EOF
+vm.swappiness = 100
 net.ipv4.tcp_no_metrics_save=1
 net.ipv4.tcp_ecn=0
 net.ipv4.tcp_frto=0
 net.ipv4.tcp_mtu_probing=0
-net.ipv4.tcp_rfc1337=1
+net.ipv4.tcp_rfc1337=0
 net.ipv4.tcp_sack=1
 net.ipv4.tcp_fack=1
 net.ipv4.tcp_window_scaling=1
-net.ipv4.tcp_adv_win_scale=2
+net.ipv4.tcp_adv_win_scale=1
 net.ipv4.tcp_moderate_rcvbuf=1
-net.ipv4.tcp_rmem=4096 65536 16777216
-net.ipv4.tcp_wmem=4096 65536 16777216
 net.core.rmem_max=16777216
 net.core.wmem_max=16777216
+net.ipv4.tcp_rmem=4096 87380 16777216
+net.ipv4.tcp_wmem=4096 16384 16777216
 net.ipv4.udp_rmem_min=8192
 net.ipv4.udp_wmem_min=8192
-net.core.default_qdisc=fq_pie
-net.ipv4.tcp_congestion_control=bbr
+net.core.default_qdisc = fq
+net.ipv4.tcp_congestion_control = bbr
+fs.file-max=1000000
+net.ipv6.conf.all.disable_ipv6 = 0
+net.ipv4.icmp_echo_ignore_all = 0
+net.ipv4.ip_forward = 1
+net.ipv4.ip_local_port_range = 50000 65000
 EOF
 sysctl -p && sysctl --system
 }
