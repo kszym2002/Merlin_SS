@@ -44,7 +44,7 @@ sed -i '/net.ipv4.tcp_congestion_control/d' /etc/sysctl.conf
 cat >> /etc/sysctl.conf << EOF
 vm.swappiness = 100
 net.ipv4.tcp_base_mss=1460
-net.ipv4.tcp_timestamps=0
+net.ipv4.tcp_timestamps=1
 net.ipv4.tcp_no_metrics_save=1
 net.ipv4.tcp_ecn=0
 net.ipv4.tcp_frto=0
