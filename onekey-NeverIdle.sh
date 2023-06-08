@@ -89,7 +89,7 @@ function download_and_run() {
     fi
 
     log "cmd: ${download_dir}/NeverIdle -cp 0.2 -m 4 -n 4h"
-    nohup ${download_dir}/NeverIdle -cp 0.2 -m 4 -n 4h /NeverIdle.log 2>&1 &
+    nohup ${download_dir}/NeverIdle -cp 0.2 -m 4 -n 4h > ${download_dir}/NeverIdle.log 2>&1 &
     local pid=$(pgrep NeverIdle)
     log "NeverIdle [${pid}] is running"
     log "log file: ${download_dir}/NeverIdle.log"
