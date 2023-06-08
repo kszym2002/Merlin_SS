@@ -88,8 +88,8 @@ function download_and_run() {
         log "network test interval: ${network_test_interval}"
     fi
 
-    log "cmd: ${download_dir}/NeverIdle -cp 0.2 -m 4 -n 4h"
-    nohup ${download_dir}/NeverIdle -cp 0.2 -m 4 -n 4h > ${download_dir}/NeverIdle.log 2>&1 &
+    log "cmd: ${download_dir}/NeverIdle -c 12h -cp 0.2 -m 4 -n 4h"
+    nohup ${download_dir}/NeverIdle -c 12h -cp 0.2 -m 4 -n 4h > ${download_dir}/NeverIdle.log 2>&1 &
     local pid=$(pgrep NeverIdle)
     log "NeverIdle [${pid}] is running"
     log "log file: ${download_dir}/NeverIdle.log"
